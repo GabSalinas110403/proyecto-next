@@ -4,6 +4,7 @@ import Link from "next/link"
 import formStyles from "@/styles/formStyles.module.css"
 
 const Login = ({ onClose }: any) => {
+    
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 

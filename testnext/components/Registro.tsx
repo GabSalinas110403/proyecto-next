@@ -5,6 +5,7 @@ import formStyles from "@/styles/formStyles.module.css"
 
 const Register = ({ onClose }: any) => {
 
+    
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const handleRegister = () => {
